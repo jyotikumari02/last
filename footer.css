@@ -1,0 +1,122 @@
+.container-7
+{
+    width: 1300px;
+    height: auto;
+    background:rgb(5, 43, 5);
+    margin: auto;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+
+}
+.roww
+{
+    display: flex;
+    margin-top: 30px;
+    font-weight: lighter;
+    margin: 30px;
+}
+ul
+{
+    list-style: none;
+}
+.footer
+{
+    padding: 30px;
+}
+.col
+{
+    width: 25%;
+    padding: px;
+}
+.col h4{
+    font-size:12px;
+    text-transform: capitalize;
+    padding: 10px;
+    font-weight: lighter;
+
+}
+.col ul li a
+{
+    font-size: 12px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight:;
+    display: block;
+    transition: all 0.3s ease;
+    padding: 6px;
+}
+.col ul li a:hover
+{
+    text-decoration:;
+}
+ .social-link
+{
+    display:flex ;
+    flex-direction: row;
+    font-size: 15px;
+
+}
+ .app
+{
+    display:flex;
+    margin-left: 970px;
+}
+.cont-1
+{
+    display: flex;
+}
+.cont-1 h4
+{
+    margin-top: 8px;
+  font-size: 12px;
+  font-weight: lighter;
+}
+.cont-2
+{
+    display: flex;
+    font-weight: lighter;
+}
+.cont-2 a
+{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    padding-right: 90px; 
+    margin-bottom: 30px;
+}
+#lne
+{
+    margin-left:-10px ;
+    margin-right: 15px;
+}
+#sl
+{
+    margin-bottom: 15px;
+    margin: 15px;
+}
+#inf
+{
+    
+    margin: 15px;
+}
+@media(max-width: 574px )
+{
+    .col
+    {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+}
+
+
+
+
+

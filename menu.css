@@ -1,0 +1,269 @@
+
+.menu-bar
+{
+	background:white;
+	text-align:center;
+	overflow: hidden;
+}
+.menu-bar ul
+{
+	display:inline-flex;
+	list-style:none;
+    color:;	
+	
+}
+
+.menu-bar ul li 
+{
+	display: inline-block;
+	width:130px;
+	height:40px;
+	margin:5px;
+	margin-top:15px;
+	margin-bottom:;
+	margin-right:px;
+	padding:5px;
+	font-size:15px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	
+}
+
+	
+.menu-bar ul li a
+{
+	
+	text-decoration:none;
+	color:gray;
+}
+ .menu-bar ul li :hover
+{
+	color:rgba(5, 160, 18, 0.795);
+}
+.menu-bar .fa 
+{
+	margin-left:8px;	
+}	
+.sub-menu1
+{
+	display:none;	
+}
+.menu-bar ul li:hover .sub-menu1
+{
+	display:flex;
+	flex-direction:column;
+	position:absolute;
+	background:white;
+	margin-top:23px;
+	margin-left:-200px;
+	width:100%;
+	
+}
+.menu-bar ul li:hover .sub-menu1 ul
+{
+  display:block;
+  margin:0px;  
+}
+.menu-bar ul li:hover .sub-menu1 ul li
+{
+  
+	width:100%;
+	padding-left:50px;
+	background:;
+	border-radius:0;
+	text-align:left;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li:hover
+{
+	background:rgb(236, 241, 243);
+}
+	.sign{
+		 background-color:rgb(20, 161, 20);
+		 border-radius:18px;
+		 color:white;
+		 padding-left:px;
+		 margin-top:-10;
+		 margin-bottom:5px;
+		 width:110px;
+		 height:40px
+	}
+	#sgn
+	{
+		margin-left:150;
+	}	
+	input[type=text]
+	{
+		margin-top:-10;
+		border:1px solid #CCC;
+		border-radius:18px;
+		width:280px;
+		height:40px;
+		
+	}
+	#lh
+	{
+		padding-left:200px;
+	}
+	.sub-menu-1
+{
+	display:none;
+}
+.hover-me:hover .sub-menu-1
+{
+	position:absolute;
+	display:inline-flex;
+	margin:20px;
+	margin-left:293px;
+	background:#fff;
+	overflow: auto;
+	
+}
+.hover-me ul li:hover .sub-menu-1 ul li	
+{
+	display: flexbox;
+	width: 500px;;
+	height:500px;
+}
+.sub-menu2
+{
+	display:none;
+}
+.menu-bar ul li:hover .sub-menu2
+{
+	display:block;
+	flex-direction:row;
+	position:absolute;
+	background:white;
+    margin-top: 23;
+	margin-left:-380px;
+	width:100%;
+	height:150px;
+	
+}
+.menu-bar ul li:hover .sub-menu2 ul
+{
+  display:flex;
+  
+  
+	width:400px;
+	height:150px;
+	margin-left: 90;
+	
+}
+.menu-bar ul li:hover .sub-menu2 ul li
+{
+	width:100%;
+	height:auto;
+	padding:0px;
+	background:transparent;
+	border-radius:0;
+	text-align:left;
+}
+
+.menu-bar ul li:hover .sub-menu2 ul li:hover
+{
+	color:;
+	background:rgb(155, 212, 231);
+}
+.sub-menu3
+{
+	display:none;
+}
+.menu-bar ul li:hover .sub-menu3
+{
+	display:block;
+	flex-direction:row;
+	position:absolute;
+	background:white;
+	margin-top:23px;
+	margin-left:-500px;
+}
+.menu-bar ul li:hover .sub-menu3 ul
+{
+  display:flex;
+  margin:10px;
+  margin-left:50;
+    
+}
+.menu-bar ul li:hover .sub-menu3 ul li
+{
+	width:50%;
+	height:300px;
+	border-radius:0;
+	text-align:left;
+}
+.menu-bar ul li:hover .sub-menu3 ul li:hover
+{
+	color:;
+	background:rgb(241, 243, 243);
+}
+#wh
+{
+	font-size: 17px;
+	color:rgb(59, 58, 58);
+}
+
+#gd
+{
+	color: rgb(75, 65, 65);
+	margin-top:8px;
+	font-size: 14px;
+	font-weight: lighter;
+}
+.btn
+{
+	width:350px;
+	height:70px;
+	border-radius:10px;
+	text-align:left;
+	padding:5px;
+	margin-bottom:8;
+	background: transparent;
+	border: 1px solid #ccc;
+}
+
+	#h1
+	{
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 14px;
+		color: grey;
+		font-weight: lighter;
+		padding-top:5;
+	}
+	#hfw
+	{
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 14px;
+		color: grey;
+		font-weight: lighter;
+		padding-top:8;
+		;
+	}
+	#wu
+	{
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 14px;
+		color: grey;
+		font-weight: lighter;
+		padding-top:8;
+		margin-bottom: 40;
+
+	}
+	#gs
+	{
+		font-size: 5px;
+	}
+	#let
+	{
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 14px;
+		color: grey;
+		font-weight: lighter;
+		padding-top:8;
+		
+	}
+
+	
+
+	
